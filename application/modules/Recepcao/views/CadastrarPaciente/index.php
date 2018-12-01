@@ -5,7 +5,7 @@
                 <div class="col-12">
                   <div class="card">
                     <div class="card-body">
-                      <h4 class="card-title">Ficha de Avaliação</h4>
+                      <h4 class="card-title">Cadastro de Paciente</h4>
                       <form class="forms-sample col-md-12">
                             <div class="col-md-6  ">
                                 <div class="form-group">

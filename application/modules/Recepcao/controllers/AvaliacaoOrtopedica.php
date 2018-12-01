@@ -1,13 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class AvaliacaoFisioterapeutica extends MX_Controller {
+class AvaliacaoOrtopedica extends MX_Controller {
 
 	public function index()
 	{
         $param = array(
-            'title' => 'Avaliação Fisioteraupêutica',
-            'view' => 'AvaliacaoFisioterapeutica/index'
+            'title' => 'Avaliação Ortopédica',
+            'view' => 'AvaliacaoOrtopedica/index'
         );
 		$this->load->view('includes/core', $param);
 	}

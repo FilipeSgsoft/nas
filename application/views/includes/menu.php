@@ -26,6 +26,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="AvaliacaoFisioterapeutica">Avaliação Fisioterapêutica</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="AvaliacaoOrtopedica">Avaliação Ortopédica</a>
+                </li>
               </ul>
             </div>
           </li>
