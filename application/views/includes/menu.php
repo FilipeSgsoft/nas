@@ -21,6 +21,9 @@
                   <a class="nav-link" href="AvaliacaoOncologica">Avaliação Oncológica</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="AvaliacaoNeurologica">Avaliação Neurológica</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="AvaliacaoNeuropediatrica">Avaliação Neuropediátrica</a>
                 </li>
                 <li class="nav-item">
