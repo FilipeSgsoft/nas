@@ -30,6 +30,9 @@
                   <a class="nav-link" href="../Recepcao/CadastrarPaciente">Paciente</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="../Recepcao/AvaliacaoNeuropediatrica">Avaliação Neurologica</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="../Recepcao/AvaliacaoOncologica">Avaliação Oncológica</a>
                 </li>
                 <li class="nav-item">
