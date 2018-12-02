@@ -60,7 +60,7 @@
                                         </div>
                                     </div>
 
-                                  
+
                                     <div class="col-md-12">
                                         <button type="submit" class="btn btn-success mr-2">Salvar Dados</button>
                                         <div>
@@ -85,7 +85,7 @@
                             <form class="forms-sample">
 
                                 <div class="row">
-                                   
+
 
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -150,7 +150,9 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-12"><h5>Palpação</h5></div>
+                                    <div class="col-md-12">
+                                        <h5>Palpação</h5>
+                                    </div>
                                     <div class="col-md-6">
 
                                         <div class="form-group">
@@ -193,8 +195,8 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                    <hr>
-                                    <h5>Reflexos patológicos</h5>
+                                        <hr>
+                                        <h5>Reflexos patológicos</h5>
                                     </div>
 
                                     <div class="col-md-6">
@@ -211,8 +213,8 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                    <hr>
-                                    <h5>eflexos profundos</h5>
+                                        <hr>
+                                        <h5>eflexos profundos</h5>
                                     </div>
 
                                     <div class="col-md-6">
@@ -304,7 +306,7 @@
                                             <label for="exampleInputEmail1">Diacococinesia</label>
                                             <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
                                         </div>
-                                    </div>  
+                                    </div>
 
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -313,7 +315,7 @@
                                         </div>
                                     </div>
 
-                                    
+
                                     <div class="col-md-12">
                                         <hr>
                                         <h5>Sensibilidade Superficial</h5>
@@ -340,7 +342,7 @@
                                         </div>
                                     </div>
 
-                                     <div class="col-md-12">
+                                    <div class="col-md-12">
                                         <hr>
                                         <h5>Sensibilidade profunda</h5>
                                     </div>
@@ -411,7 +413,7 @@
                                         <h5>Marcha</h5>
                                     </div>
 
-                                     <div class="col-md-6">
+                                    <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Uso dispositivo auxiliar</label>
                                             <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
@@ -432,12 +434,12 @@
                                         </div>
                                     </div>
 
-                                     <div class="col-md-12">
+                                    <div class="col-md-12">
                                         <hr>
                                         <h5>Atividades da vida diária</h5>
                                     </div>
 
-                                     <div class="col-md-6">
+                                    <div class="col-md-6">
                                         <div class="form-group">
                                             <label>Reação de proteção</label>
                                             <select class="custom-select form-control">
@@ -491,8 +493,8 @@
 
                                     <div class="col-md-12">
                                         <button type="submit" class="btn btn-success mr-2">Salvar Dados</button>
-                                        <div>
-                                        </div>
+                                    </div>
+                                </div>    
                             </form>
                         </div>
                     </div>
