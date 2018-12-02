@@ -1,9 +1,21 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="../Recepcao/EncaminharPaciente">
               <i class="menu-icon mdi mdi-television"></i>
-              <span class="menu-title">Dashboard</span>
+              <span class="menu-title">Atendimentos</span>
+            </a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="../Medico/Atendimento">
+              <i class="menu-icon mdi mdi-television"></i>
+              <span class="menu-title">Atendimento Médico</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Estagiario/AtenderPaciente">
+              <i class="menu-icon mdi mdi-backup-restore"></i>
+              <span class="menu-title">Atendimento Estagiário</span>
             </a>
           </li>
           <li class="nav-item">
@@ -15,22 +27,22 @@
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="CadastrarPaciente">Paciente</a>
+                  <a class="nav-link" href="../Recepcao/CadastrarPaciente">Paciente</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="AvaliacaoOncologica">Avaliação Oncológica</a>
+                  <a class="nav-link" href="../Recepcao/AvaliacaoNeuropediatrica">Avaliação Neurologica</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="AvaliacaoNeurologica">Avaliação Neurológica</a>
+                  <a class="nav-link" href="../Recepcao/AvaliacaoOncologica">Avaliação Oncológica</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="AvaliacaoNeuropediatrica">Avaliação Neuropediátrica</a>
+                  <a class="nav-link" href="../Recepcao/AvaliacaoNeuropediatrica">Avaliação Neuropediátrica</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="AvaliacaoFisioterapeutica">Avaliação Fisioterapêutica</a>
+                  <a class="nav-link" href="../Recepcao/AvaliacaoFisioterapeutica">Avaliação Fisioterapêutica</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="AvaliacaoOrtopedica">Avaliação Ortopédica</a>
+                  <a class="nav-link" href="../Recepcao/AvaliacaoOrtopedica">Avaliação Ortopédica</a>
                 </li>
               </ul>
             </div>
