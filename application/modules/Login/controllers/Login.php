@@ -27,7 +27,12 @@ class Login extends MX_Controller {
 					);
 					$this->session->set_userdata('usuario', $param);
 					$this->session->set_userdata('menu', $obterMenu);
-					redirect('../Recepcao/CadastrarPaciente');
+					foreach($obterMenu as $key){
+						if($key->url != ""){
+							redirect(base_url($key->url));
+							break;
+						}
+					}
 				}else{
 					redirect($this->index());
 				}

@@ -21,7 +21,7 @@
                     if($key2->id_pai == $key->id){ 
                   ?>
                     <li class="nav-item">
-                      <a class="nav-link" href="<?= $key2->url ?>"><?= $key2->nome; ?></a>
+                      <a class="nav-link" href="<?= "../".$key2->url ?>"><?= $key2->nome; ?></a>
                     </li>
                   <?php
                     }

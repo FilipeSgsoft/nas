@@ -1,7 +1,3 @@
-<?php
-				var_dump($this->session->userdata('usuario'));
-				die;
-?>
 <div class="content-wrapper">
           <div class="row">
             <div class="col-md-12 d-flex align-items-stretch grid-margin">
