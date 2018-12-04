@@ -1,3 +1,6 @@
+<?php
+    $usuario = $this->session->userdata('usuario');
+?>
 <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center" >
         <a class="navbar-brand brand-logo" href="index.html" style="color:#000" >
@@ -63,7 +66,7 @@
           </li>
           <li class="nav-item dropdown d-none d-xl-inline-block">
             <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-              <span class="profile-text">Olá, Filipe RIbeiro!</span>
+              <span class="profile-text">Olá, <?= $usuario[0]->nome ?>!</span>
               <img class="img-xs rounded-circle" src="../assets/images/faces/face1.jpg" alt="Profile image">
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
@@ -81,12 +84,9 @@
                 </div>
               </a>
               <a class="dropdown-item mt-2">
-                Perfil
+                Perfil: <?= $usuario[0]->perfil ?>
               </a>
-              <a class="dropdown-item">
-                Alterar Senha
-              </a>
-              <a class="dropdown-item">
+              <a href="<?= base_url('Login') ?>" class="dropdown-item">
                 Sair
               </a>
             </div>

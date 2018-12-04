@@ -5,7 +5,6 @@ class Login extends MX_Controller {
 
 	function __construct(){
 		parent::__construct();
-		$this->load->helper('url');
 		$this->load->model('LoginModel');
 	}
 
@@ -21,15 +20,12 @@ class Login extends MX_Controller {
 			if($retorno){
 				$obterMenu = $this->LoginModel->ObterMenu($retorno[0]->id);
 				if($obterMenu){
-					$param = array(
-						'usuario' => $data['usuario'],
-						'logged' => true
-					);
-					$this->session->set_userdata('usuario', $param);
+					$this->session->set_userdata('usuario', $retorno);
 					$this->session->set_userdata('menu', $obterMenu);
+
 					foreach($obterMenu as $key){
-						if($key->url != ""){
-							redirect(base_url($key->url));
+						if($key->modulo != "NULL"){
+							redirect(base_url($key->modulo."/".$key->view));
 							break;
 						}
 					}

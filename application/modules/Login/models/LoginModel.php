@@ -9,7 +9,9 @@ class LoginModel extends CI_Model
 	}
 
     public function autenticar($data){
-        $sql = "SELECT * FROM usuario WHERE usuario='".$data['usuario']."' and senha='".$data['senha']."'";
+        $sql = "SELECT u.id,u.usuario,u.nome,p.nome as perfil FROM usuario u
+        left join perfil_menu pm on pm.id_perfil=u.id
+        left JOIN perfil p on p.id=pm.id_perfil WHERE u.usuario='".$data['usuario']."' and u.senha='".$data['senha']."'";
         $query = $this->db->query($sql);
         if($query->num_rows() > 0){$data = $query->result();return $data;}else{return false;}
     }

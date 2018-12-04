@@ -52,6 +52,8 @@ class MX_Controller
 		
 		/* autoload module items */
 		$this->load->_autoloader($this->autoload);
+
+		$this->load->helper('url');
 	}
 	
 	public function __get($class) 

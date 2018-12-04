@@ -12,51 +12,21 @@
                           <th>Nome do Médico</th>
                           <th>Motivo</th>
                           <th>Status</th>
+                          <th>Estagiário</th>
                           <th>Ação</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
-                          <td>Filipe Ribeiro</td>
-                          <td>Iago Virgilio</td>
-                          <td>Motivo de teste</td>
-                          <td><label class="badge badge-danger">Pending</label></td>
-                          <td>
-                            <button type="button" class="btn btn-primary btn-rounded btn-fw">Encaminhar</button>
-                          </td>
-                        </tr>
                          <tr>
                           <td>Filipe Ribeiro</td>
                           <td>Iago Virgilio</td>
                           <td>Motivo de teste</td>
                           <td><label class="badge badge-danger">Pending</label></td>
-                          <td>
-                            <button type="button" class="btn btn-primary btn-rounded btn-fw">Encaminhar</button>
-                          </td>
-                        </tr>
-                         <tr>
-                          <td>Filipe Ribeiro</td>
-                          <td>Iago Virgilio</td>
-                          <td>Motivo de teste</td>
-                          <td><label class="badge badge-danger">Pending</label></td>
-                          <td>
-                            <button type="button" class="btn btn-primary btn-rounded btn-fw">Encaminhar</button>
-                          </td>
-                        </tr>
-                         <tr>
-                          <td>Filipe Ribeiro</td>
-                          <td>Iago Virgilio</td>
-                          <td>Motivo de teste</td>
-                          <td><label class="badge badge-danger">Pending</label></td>
-                          <td>
-                            <button type="button" class="btn btn-primary btn-rounded btn-fw">Encaminhar</button>
-                          </td>
-                        </tr>
-                         <tr>
-                          <td>Filipe Ribeiro</td>
-                          <td>Iago Virgilio</td>
-                          <td>Motivo de teste</td>
-                          <td><label class="badge badge-danger">Pending</label></td>
+                           <td>
+                            <select class="form-control">
+                              <option>Selecione um estágiario</option>
+                            </select>
+                           </td>
                           <td>
                             <button type="button" class="btn btn-primary btn-rounded btn-fw">Encaminhar</button>
                           </td>
